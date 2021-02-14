@@ -286,11 +286,11 @@ void MandelBrot::draw(int width,int height,int iteration){
 
 int main() {
 	
-	Rectangle* rec = new Rectangle(200,200,250,250,100,0,255);
+	Rectangle* r = new Rectangle(200,200,250,250,100,0,255);
 	
-	rec->draw();
+	r->draw();
 	
-	//rec->floodFill2(201,201,255,0,255,r->getJframeWidth(),r->getJframeHeight());
+	//r->floodFill2(201,201,255,0,255,r->getJframeWidth(),r->getJframeHeight());
 	
 	//MandelBrot* mb = new MandelBrot();
 	
